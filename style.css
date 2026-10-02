@@ -107,7 +107,8 @@
     height:72px;
   }
   .brand{display:flex;align-items:center;gap:11px;}
-  .brand-icon{height:34px;width:auto;transition:opacity .3s ease;}
+  .brand-logo{height:100px;width:auto;transition:opacity .3s ease;}
+/* .brand-logo{height:40px;width:auto;} */
   .brand-icon--dark{display:none;}
   .navbar.is-scrolled .brand-icon--light{display:none;}
   .navbar.is-scrolled .brand-icon--dark{display:block;}
@@ -195,9 +196,8 @@
     background-image:
       linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
       linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
-  background: url("./images/financial.webp") center / cover no-repeat;
-
-    mask-image:radial-gradient(ellipse at 60% 40%, black 0%, transparent 72%);
+     background: url("./images/financial.webp") center / cover no-repeat;
+     mask-image:radial-gradient(ellipse at 60% 40%, black 0%, transparent 72%);
   }
 
   .hero-content{
