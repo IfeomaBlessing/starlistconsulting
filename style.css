@@ -195,7 +195,8 @@
     background-image:
       linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
       linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
-    background-size:52px 52px;
+  background: url("./images/financial.webp") center / cover no-repeat;
+
     mask-image:radial-gradient(ellipse at 60% 40%, black 0%, transparent 72%);
   }
 
