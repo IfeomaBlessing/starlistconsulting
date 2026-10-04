@@ -184,19 +184,19 @@
   .slide--one .slide-bg{
     background-image:
       linear-gradient(155deg, rgba(16,19,24,0.88) 0%, rgba(16,19,24,0.55) 45%, rgba(40,20,16,0.75) 100%),
-      url('images/hero-slide-1.jpg');
+      url('/images/building.jpg');
   }
   .slide--two .slide-bg{
     background-image:
       linear-gradient(155deg, rgba(38,22,16,0.85) 0%, rgba(52,26,18,0.55) 42%, rgba(16,21,27,0.8) 100%),
-      url('images/hero-slide-2.jpg');
+      url('images/secondImage.webp');
+    
   }
   .hero-grid{
     position:absolute;inset:0;
     background-image:
       linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
       linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
-     background: url("./images/financial.webp") center / cover no-repeat;
      mask-image:radial-gradient(ellipse at 60% 40%, black 0%, transparent 72%);
   }
 
